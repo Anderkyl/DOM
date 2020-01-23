@@ -8,8 +8,8 @@ let init = function(){
     //let btn= document.createElement("BUTTON");
     //THIS ONLY CREATES THE ELEMENT, IT DOES NOT ADD IT TO THE PAGE.
     //btn = <button></button> btn is basically a button tag.
-    //btn.innerHTML = "CLICK ME";
-    //btn.onclick = togglePicture;
+    btn.innerHTML = "CLICK ME";
+    btn.onclick = togglePicture;
 
     image = document.createElement("IMG");
     image.onclick = togglePicture;
@@ -18,7 +18,7 @@ let init = function(){
     //btn.appendChild() will add the parameter element to the executing element.
 
     let content = document.getElementById( "content");
-    //content = <section></section>
+    content = <section></section>
 
     //content.appendChild(btn);
     content.appendChild(image);
